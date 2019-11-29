@@ -1,0 +1,21 @@
+{
+    "name": "gongzhi/mycomposer",
+    "description": "这是我的第一个composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gongzhi",
+            "email": "smys2233@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.0.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Gongzhi\\Mycomposer\\":"src/Gongzhi/Mycomposer"
+		}
+	}
+}
